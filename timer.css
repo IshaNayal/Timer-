@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.background-overlay {
+  background: url('timerrassets/bg.png') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-container {
+  text-align: center;
+  background-color: rgba(148, 76, 193, 0.673);
+  padding: 30px;
+  border-radius: 20px;
+  color: #000000;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.countdown div {
+  background: rgba(248, 5, 220, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 80px;
+}
+
+.countdown span {
+  font-size: 2rem;
+  display: block;
+}
+
+.countdown p {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.set-timer input[type="number"] {
+  width: 100px;
+  height: 40px;
+  font-size: 1.5rem;
+  margin: 0 5px;
+  text-align: center;
+  border-radius: 8px;
+  background: #000000;
+  color: #b700ff;
+  border: 2px solid #000000;
+}
+
+.set-timer button {
+  height: 44px;
+  font-size: 1.4rem;
+  border-radius: 8px;
+  padding: 0 13px;
+  margin-left: 10px;
+  background: #000000;
+  color: #898989;
+  border: none;
+  cursor: pointer;
+ 
+}
+
+.set-timer button:hover {
+  background: #ffffff;
+}
